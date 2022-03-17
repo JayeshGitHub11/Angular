@@ -1,0 +1,17 @@
+<div class="container-1">
+    <h1>COMPONENT A</h1>
+    <table class='table'>
+        <tbody>
+                <tr>
+                    <th>MODEL</th>
+                    <th>NAME</th>
+                    <th>PRICE</th>
+                </tr>
+            <tr *ngFor="let product of products;">
+                <td>{{product.productID}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
